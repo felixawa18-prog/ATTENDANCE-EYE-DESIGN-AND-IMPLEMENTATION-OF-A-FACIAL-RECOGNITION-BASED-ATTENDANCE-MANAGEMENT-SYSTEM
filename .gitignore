@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Runtime data: the attendance database holds students' face templates
+/data/
+*.db
+*.db-journal
+
+# Evaluation inputs and generated test files (re-create them as described in README.md)
+/eval/data/
+/eval/results/load_images/
+/eval/results/e2e_faces.js
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.~lock.*#

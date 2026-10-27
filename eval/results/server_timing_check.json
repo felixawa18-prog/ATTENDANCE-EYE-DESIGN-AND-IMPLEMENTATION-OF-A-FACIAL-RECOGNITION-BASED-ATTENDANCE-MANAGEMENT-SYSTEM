@@ -1,0 +1,6 @@
+{
+  "description": "X-Process-Time-Ms reported by the reconstructed backend for POST /mark-attendance, fresh database, five LFW people enrolled with image _0001 and probed with _0002 three times each (laptop on battery, power-saver mode)",
+  "people": ["Larry_Coker", "Ethan_Hawke", "Tom_Daschle", "Aung_San_Suu_Kyi", "Brian_Cowen"],
+  "new_record_ms": [621.0, 446.3, 627.7, 323.1, 361.5],
+  "duplicate_refused_ms": [78.1, 84.0, 110.4, 144.5, 82.8, 91.8, 84.3, 87.4, 85.5, 78.7]
+}

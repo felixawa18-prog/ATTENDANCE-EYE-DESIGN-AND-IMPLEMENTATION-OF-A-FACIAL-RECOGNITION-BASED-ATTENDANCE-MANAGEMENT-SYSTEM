@@ -1,0 +1,254 @@
+[
+  {
+    "threshold": 0.25,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 92.31,
+    "FMR_pct": 31.89,
+    "MRR_pct": 6.1
+  },
+  {
+    "threshold": 0.25,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 88.33,
+    "FMR_pct": 30.16,
+    "MRR_pct": 9.81
+  },
+  {
+    "threshold": 0.25,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 92.57,
+    "FMR_pct": 31.89,
+    "MRR_pct": 5.04
+  },
+  {
+    "threshold": 0.25,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 91.07,
+    "FMR_pct": 31.31,
+    "MRR_pct": 6.98
+  },
+  {
+    "threshold": 0.3,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 92.04,
+    "FMR_pct": 24.78,
+    "MRR_pct": 6.9
+  },
+  {
+    "threshold": 0.3,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 88.33,
+    "FMR_pct": 19.58,
+    "MRR_pct": 10.61
+  },
+  {
+    "threshold": 0.3,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 92.31,
+    "FMR_pct": 23.05,
+    "MRR_pct": 6.1
+  },
+  {
+    "threshold": 0.3,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 90.89,
+    "FMR_pct": 22.47,
+    "MRR_pct": 7.87
+  },
+  {
+    "threshold": 0.363,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 91.51,
+    "FMR_pct": 5.37,
+    "MRR_pct": 8.22
+  },
+  {
+    "threshold": 0.363,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 88.06,
+    "FMR_pct": 3.99,
+    "MRR_pct": 11.67
+  },
+  {
+    "threshold": 0.363,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 91.51,
+    "FMR_pct": 4.33,
+    "MRR_pct": 8.49
+  },
+  {
+    "threshold": 0.363,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 90.36,
+    "FMR_pct": 4.56,
+    "MRR_pct": 9.46
+  },
+  {
+    "threshold": 0.4,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 90.72,
+    "FMR_pct": 0.69,
+    "MRR_pct": 9.28
+  },
+  {
+    "threshold": 0.4,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 87.27,
+    "FMR_pct": 0.69,
+    "MRR_pct": 12.73
+  },
+  {
+    "threshold": 0.4,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 90.72,
+    "FMR_pct": 1.56,
+    "MRR_pct": 9.28
+  },
+  {
+    "threshold": 0.4,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 89.57,
+    "FMR_pct": 0.98,
+    "MRR_pct": 10.43
+  },
+  {
+    "threshold": 0.45,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 89.66,
+    "FMR_pct": 0.0,
+    "MRR_pct": 10.34
+  },
+  {
+    "threshold": 0.45,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 83.29,
+    "FMR_pct": 0.0,
+    "MRR_pct": 16.71
+  },
+  {
+    "threshold": 0.45,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 87.8,
+    "FMR_pct": 0.0,
+    "MRR_pct": 12.2
+  },
+  {
+    "threshold": 0.45,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 86.91,
+    "FMR_pct": 0.0,
+    "MRR_pct": 13.09
+  },
+  {
+    "threshold": 0.5,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 86.47,
+    "FMR_pct": 0.0,
+    "MRR_pct": 13.53
+  },
+  {
+    "threshold": 0.5,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 75.33,
+    "FMR_pct": 0.0,
+    "MRR_pct": 24.67
+  },
+  {
+    "threshold": 0.5,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 81.17,
+    "FMR_pct": 0.0,
+    "MRR_pct": 18.83
+  },
+  {
+    "threshold": 0.5,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 80.99,
+    "FMR_pct": 0.0,
+    "MRR_pct": 19.01
+  },
+  {
+    "threshold": 0.55,
+    "condition": "normal",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 78.25,
+    "FMR_pct": 0.0,
+    "MRR_pct": 21.75
+  },
+  {
+    "threshold": 0.55,
+    "condition": "dim",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 65.25,
+    "FMR_pct": 0.0,
+    "MRR_pct": 34.75
+  },
+  {
+    "threshold": 0.55,
+    "condition": "low_resolution",
+    "Ng": 377,
+    "Nt": 577,
+    "accuracy_pct": 70.82,
+    "FMR_pct": 0.0,
+    "MRR_pct": 29.18
+  },
+  {
+    "threshold": 0.55,
+    "condition": "all",
+    "Ng": 1131,
+    "Nt": 1731,
+    "accuracy_pct": 71.44,
+    "FMR_pct": 0.0,
+    "MRR_pct": 28.56
+  }
+]

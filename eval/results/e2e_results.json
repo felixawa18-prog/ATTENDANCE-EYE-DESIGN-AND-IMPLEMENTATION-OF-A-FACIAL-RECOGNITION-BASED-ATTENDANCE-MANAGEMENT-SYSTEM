@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-26",
+  "setup": "Copy of the deployed frontend at http://localhost:3000 (backend address changed to http://localhost:8000), reconstructed backend with an empty database (e2e.db), Chrome 149 driven through Chrome DevTools, simulated 640x480 camera showing LFW photographs (see e2e_identities.json)",
+  "tests": {
+    "TC15": {"result": "Pass", "observed": "✅ Test Student 01 (TEST/001) registered successfully. (727 ms); listed on the Users screen"},
+    "TC16": {"result": "Pass", "observed": "❌ Registration failed: A student with matriculation number TEST/001 is already registered.; user count stayed at 1"},
+    "TC17": {"result": "Pass", "observed": "❌ Registration failed: No face detected. Please face the camera and try again.; form values kept"},
+    "TC18": {"result": "Pass", "observed": "✅ Attendance marked for Test Student 01 (TEST/001). (1291 ms, similarity 0.768); record shown under Today's Attendance"},
+    "TC19": {"result": "Pass", "observed": "❌ Attendance already marked today for Test Student 01 at 20:14.; record count stayed at 1"},
+    "TC20": {"result": "Pass", "observed": "❌ Face not recognised. Please register first or try again.; no record created (two attempts)"},
+    "TC21": {"result": "Pass", "observed": "❌ No face detected. Please face the camera and try again.; no record created"},
+    "TC22": {"result": "Pass", "observed": "Prompt 'Are you sure you want to delete this user?'; ✅ Test Student 07 deleted successfully.; users 7 -> 6, row removed from the screen"},
+    "TC23": {"result": "Pass", "observed": "Reports showed 6 registered, 4 present, 2 absent, 66.7%; database held 6 students and 4 records for the day"}
+  },
+  "observations": [
+    "Test Student 03's first enrolment photo (Maria_Luisa_Mendonca_0001) was refused through the browser with 'More than one face detected', although the same photo had been accepted through the API at its original 250 x 250 size during the recognition evaluation; enlarged to fill the 480-pixel-high camera frame, a second face in the background was detected. Registration succeeded with her second photo.",
+    "The duplicate-attendance message gives the time in 24-hour form (20:14), while the attendance list shows 8:14:02 PM."
+  ]
+}

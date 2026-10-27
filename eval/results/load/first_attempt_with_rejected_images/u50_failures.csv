@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+POST,/mark-attendance,HTTPError('400 Client Error: Bad Request for url: /mark-attendance'),24
